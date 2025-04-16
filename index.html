@@ -16,10 +16,6 @@
       // 링크들 열기
       urls.forEach(url => window.open(url, '_blank'));
 
-      // 약간 기다렸다가 이 창 닫기 (0.5초 후)
-      setTimeout(() => {
-        window.close();
-      }, 10000);
     }
 
     window.onload = openAllLinks;
